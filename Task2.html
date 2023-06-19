@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 80%;
+        max-width: 600px;
+        height: 400px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        height: 50%;
+    }
+
+    .row div {
+        width: 30%;
+        height: 100%;
+    }
+
+    .noMargin {
+        margin: 0;
+    }
+
+    .circle-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+
+    .diamond {
+        position: absolute;
+        width: 77.5px;
+        height: 77.5px;
+        border-radius: 4px 140px 4px 140px;
+        background-color: white;
+        transform: rotate(85deg);
+        top: calc(40% - 40px);
+        left: calc(45% - 45px);
+    }
+
+    .diamond1 {
+        position: absolute;
+        width: 77.5px;
+        height: 77.5px;
+        border-radius: 4px 140px 4px 140px;
+        background-color: grey;
+        transform: rotate(87deg);
+        top: calc(67.5% - 67.5px);
+        right: calc(45% - 45px);
+        }
+    
+    .diamond2 {
+        position: absolute;
+        width: 77.5px;
+        height: 77.5px;
+        border-radius: 4px 140px 4px 140px;
+        background-color: red;
+        transform: rotate(4deg);
+        top: calc(67.5% - 67.5px);
+        left: calc(45% - 45px);
+
+    }
+
+    .diamond3 {
+        position: absolute;
+        width: 77.5px;
+        height: 77.5px;
+        border-radius: 4px 140px 4px 140px;
+        background-color: rgb(52, 52, 100);
+        transform: rotate(4deg);
+        top: calc(40% - 40px);
+        right: calc(45% - 45px);
+
+    }
+    
+    .one {
+        background-color: red;
+    }
+
+    .two {
+        background-color: rgba(235, 232, 232, 0.397)
+    }
+
+    .three {
+        background-color: grey;
+    }
+
+    .four {
+        background-color: rgb(52, 52, 100);
+    }
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="row noMargin">
+            <div class="one"></div>
+            <div class="two"></div>
+        </div>
+        <div class="row noMargin">
+            <div class="three"></div>
+            <div class="four"></div>
+        </div>
+        <div class="circle-container">
+            <div class="circle">
+                <div class="diamond"></div>
+                <div class="diamond1"></div>
+                <div class="diamond2"></div>
+                <div class="diamond3"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+ 

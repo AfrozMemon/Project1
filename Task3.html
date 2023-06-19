@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    html {
+        font-family: sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    thead{
+        background-color: rgba(0, 0, 0, 0.682);
+        font-size: 1em;
+    }
+
+    td, th {
+        border: 1.5px solid white;
+        padding: 5px 5px;
+        text-align: left;
+        font-weight: normal;
+    }
+
+    caption {
+        padding: 10px;
+        font-size: 1em;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    #marketing{
+        background-color: rgb(170, 199, 234);
+    }
+
+    #sales{
+        background-color: rgb(158, 240, 212);
+    }
+
+    #product{
+        background-color:rgb(230, 161, 230) ;
+    }
+
+</style>
+</head>
+<body>
+    <table>
+      <caption>Risk Assessment for Q1 Opportunities</caption>
+        <thead>
+          <tr>
+            <th style= "color : white; font-weight: bold;" id="department">Department</th>
+            <th style= "color : white; font-weight: bold;" id="budget">Budget</th>
+            <th style= "color : white; font-weight: 900;" id="success">Chance of Success</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th rowspan="6" id="marketing">Marketing</th>
+            <th id="marketing">$10K</th>
+            <td id="marketing">25% - 50%</td>
+        </tr>
+        <tr>
+            <th id="marketing">$20K</th>
+            <td id="marketing">>25%</td>
+        </tr>
+        <tr>
+            <th id="marketing">$25k</th>
+            <td id="marketing">>25%</td>
+        </tr>
+        <tr>
+            <th id="marketing">$50K</th>
+            <td id="marketing">50% - 100%</td>
+        </tr>
+        <tr>
+            <th id="marketing">$60k</th>
+            <td id="marketing">>25%</td>
+        </tr>
+        <tr>
+            <th id="marketing">$70k</th>
+            <td id="marketing">50% - 100%</td>
+        </tr>
+        <tr>
+            <th rowspan="3" id="sales">Sales</th>
+            <th id="sales">$20K</th>
+            <td id="sales">50% - 100%</td>
+        </tr>
+        <tr>
+            <th id="sales">$20K</th>
+            <td id="sales">>25%</td>
+        </tr>
+        <tr>
+            <th id="sales">$50K</th>
+            <td id="sales">25% - 50%</td>
+        </tr>
+        <tr>
+            <th rowspan="4" id="product">Product</th>
+            <th id="product">$30K</th>
+            <td id="product">>25%</td>
+        </tr>
+        <tr>
+            <th id="product">$40K</th>
+            <td id="product">50% - 100%</td>
+        </tr>
+        <tr>
+            <th id="product">$40K</th>
+            <td id="product">25% - 50%</td>
+        </tr>
+        <tr>
+            <th id="product">$70K</th>
+            <td id="product">25% - 50%</td>
+        </tr>  
+    </tbody>
+</table>
+</body>
+</html>
